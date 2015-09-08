@@ -29,61 +29,61 @@ Rust 语言吸收了当下流行开发语言的优点，开发的目的是替代
   - [栈和堆](http://wiki.jikexueyuan.com/project/rust/the-stack-and-the-heap.html)
   - [测试](http://wiki.jikexueyuan.com/project/rust/testing.html)
   - [条件编译](http://wiki.jikexueyuan.com/project/rust/conditional-compilation.html)
-  - [文档]
-  - [迭代器]
-  - [并发性]
-  - [错误处理]
-  - [外部函数接口]
-  - [Borrow 和 AsRef]
-  - [发布通道]
-- [语法和语义]
-  - [变量绑定]
-  - [函数]
-  - [基本类型]
-  - [注释]
-  - [if]
-  - [for 循环]
-  - [while 循环]
-  - [所有权]
-  - [引用与借用]
-  - [生存期]
-  - [可变性]
-  - [结构体]
-  - [枚举]
-  - [匹配]
-  - [模式]
-  - [方法语法]
-  - [向量]
-  - [字符串]
-  - [泛型]
-  - [特征]
-  - [降]
-  - [if let]
-  - [特征的对象]
-  - [闭包]
-  - [通用函数调用语法]
-  - [箱和模块]
-  - [“常量”和“静态”]
-  - [属性]
-  - [type 别名]
-  - [类型转换]
-  - [关联类型]
-  - [全类型]
-  - [操作符和重载]
-  - ['Deref'强制转换]
-  - [宏命令]
-  - [原始指针]
-  - [unsafe]
-- [Nightly Rust]
-  - [编译器插件]
-  - [内联汇编]
-  - [不依赖 stdlib]
-  - [内敛函数]
-  - [Lang 项目]
-  - [链接参数]
-  - [基准测试]
-  - [盒语法和模式]
-  - [切片模式]
-  - [相关常量]
-- [词汇表]
-- [相关学术研究]
+  - [文档](http://wiki.jikexueyuan.com/project/rust/documentation.html)
+  - [迭代器](http://wiki.jikexueyuan.com/project/rust/iterators.html)
+  - [并发性](http://wiki.jikexueyuan.com/project/rust/concurrency.html)
+  - [错误处理](http://wiki.jikexueyuan.com/project/rust/error-handling.html)
+  - [外部函数接口](http://wiki.jikexueyuan.com/project/rust/ffi.html)
+  - [Borrow 和 AsRef](http://wiki.jikexueyuan.com/project/rust/borrow-and-asRef.html)
+  - [发布通道](http://wiki.jikexueyuan.com/project/rust/release-channels.html)
+- [语法和语义](http://wiki.jikexueyuan.com/project/rust/syntax-and-semantics.html)
+  - [变量绑定](http://wiki.jikexueyuan.com/project/rust/variable-bindings.html)
+  - [函数](http://wiki.jikexueyuan.com/project/rust/functions.html)
+  - [基本类型](http://wiki.jikexueyuan.com/project/rust/primitive-types.html)
+  - [注释](http://wiki.jikexueyuan.com/project/rust/comments.html)
+  - [if](http://wiki.jikexueyuan.com/project/rust/if.html)
+  - [for 循环](http://wiki.jikexueyuan.com/project/rust/for-loops.html)
+  - [while 循环](http://wiki.jikexueyuan.com/project/rust/while-loops.html)
+  - [所有权](http://wiki.jikexueyuan.com/project/rust/ownership.html)
+  - [引用与借用](http://wiki.jikexueyuan.com/project/rust/references-and-borrowing.html)
+  - [生存期](http://wiki.jikexueyuan.com/project/rust/lifetimes.html)
+  - [可变性](http://wiki.jikexueyuan.com/project/rust/mutability.html)
+  - [结构体](http://wiki.jikexueyuan.com/project/rust/structs.html)
+  - [枚举](http://wiki.jikexueyuan.com/project/rust/enums.html)
+  - [匹配](http://wiki.jikexueyuan.com/project/rust/match.html)
+  - [模式](http://wiki.jikexueyuan.com/project/rust/patterns.html)
+  - [方法语法](http://wiki.jikexueyuan.com/project/rust/method-syntax.html)
+  - [向量](http://wiki.jikexueyuan.com/project/rust/vectors.html)
+  - [字符串](http://wiki.jikexueyuan.com/project/rust/string.html)
+  - [泛型](http://wiki.jikexueyuan.com/project/rust/generics.html)
+  - [特征](http://wiki.jikexueyuan.com/project/rust/traits.html)
+  - [降](http://wiki.jikexueyuan.com/project/rust/drop.html)
+  - [if let](http://wiki.jikexueyuan.com/project/rust/if-let.html)
+  - [特征的对象](http://wiki.jikexueyuan.com/project/rust/trait-objects.html)
+  - [闭包](http://wiki.jikexueyuan.com/project/rust/closures.html)
+  - [通用函数调用语法](http://wiki.jikexueyuan.com/project/rust/universal-function-call-syntax.html)
+  - [箱和模块](http://wiki.jikexueyuan.com/project/rust/creates-and-modules.html)
+  - [“常量”和“静态”](http://wiki.jikexueyuan.com/project/rust/const-static.html)
+  - [属性](http://wiki.jikexueyuan.com/project/rust/attributes.html)
+  - [type 别名](http://wiki.jikexueyuan.com/project/rust/type-aliases.html)
+  - [类型转换](http://wiki.jikexueyuan.com/project/rust/casting-between-types.html)
+  - [关联类型](http://wiki.jikexueyuan.com/project/rust/associated-types.html)
+  - [全类型](http://wiki.jikexueyuan.com/project/rust/unsized-types.html)
+  - [操作符和重载](http://wiki.jikexueyuan.com/project/rust/operations-and-overloading.html)
+  - ['Deref'强制转换](http://wiki.jikexueyuan.com/project/rust/deref-coercions.html)
+  - [宏命令](http://wiki.jikexueyuan.com/project/rust/macros.html)
+  - [原始指针](http://wiki.jikexueyuan.com/project/rust/raw-pointers.html)
+  - [unsafe](http://wiki.jikexueyuan.com/project/rust/unsafe.html)
+- [Nightly Rust](http://wiki.jikexueyuan.com/project/rust/nightly-rust.html)
+  - [编译器插件](http://wiki.jikexueyuan.com/project/rust/compiler-plugins.html)
+  - [内联汇编](http://wiki.jikexueyuan.com/project/rust/inline-assembly.html)
+  - [不依赖 stdlib](http://wiki.jikexueyuan.com/project/rust/no-stdlib.html)
+  - [内敛函数](http://wiki.jikexueyuan.com/project/rust/intrinsics.html)
+  - [Lang 项目](http://wiki.jikexueyuan.com/project/rust/lang-items.html)
+  - [链接参数](http://wiki.jikexueyuan.com/project/rust/link-args.html)
+  - [基准测试](http://wiki.jikexueyuan.com/project/rust/benchmark-tests.html)
+  - [盒语法和模式](http://wiki.jikexueyuan.com/project/rust/box-syntax-and-patterns.html)
+  - [切片模式](http://wiki.jikexueyuan.com/project/rust/slice-patterns.html)
+  - [相关常量](http://wiki.jikexueyuan.com/project/rust/associated-constants.html)
+- [词汇表](http://wiki.jikexueyuan.com/project/rust/glossary.html)
+- [相关学术研究](http://wiki.jikexueyuan.com/project/rust/academic-research.html)
